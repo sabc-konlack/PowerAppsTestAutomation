@@ -87,7 +87,7 @@ namespace Microsoft.PowerApps.TestAutomation.Tests
                             {
                                 try
                                 {
-                                    // See Authentication Types: https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-platform-service-description/user-account-management#authentication
+                                    // See Authentication Types: https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-platform-service-description/user-account-management-authentication
                                     // CloudIdentity uses standard Office 365 sign-in service
                                     if (_loginMethod == "CloudIdentity")
                                     {
